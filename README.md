@@ -26,7 +26,7 @@ ___
 
 ### How to execute the code!
 
-For java execute in cli:
+For Java execute in cli:
 
 `javac Main.java`
 
