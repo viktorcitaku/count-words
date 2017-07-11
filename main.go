@@ -40,7 +40,7 @@ func main() {
 
 	for word, appearance := range wordsRepeated {
 		if appearance > 1 {
-			_, err := out.WriteString("Word: " + word + " | Appeared: " + strconv.Itoa(appearance) + "times\n")
+			_, err := out.WriteString("Word: " + word + " | Appeared: " + strconv.Itoa(appearance) + " times\n")
 			if err != nil {
 				fmt.Fprintln(os.Stderr, "Error during write of lines: ", err.Error())
 			}
