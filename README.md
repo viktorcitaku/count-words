@@ -9,12 +9,18 @@ Main functionality of both codes is to read from file called `in`. The read is d
 In the end after the above steps are finished as described, we will write into a file called `out`.
 
 Basicaly it should look similar like this in the end, maybe with a slight difference in order:
-`
+
+```
+
 Word: is | Appeared: 2
+
 Word: Hello | Appeared: 2
+
 Word: World | Appeared: 2
+
 Word: day | Appeared: 3
-`
+
+```
 
 ___
 
