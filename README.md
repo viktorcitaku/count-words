@@ -1,14 +1,12 @@
 # count-words
 ## Count Words Code Comparison
 
-The idea behind this was to compare the two languages Java and Go.
+Now with Java, we have new programming paradigm the functional programming, and the other hand is Go with a more procedural paradigm.
 
-Now with Java we have new programming paradigm the functional programming and the other hand is Go-lang from Google with a more procedural paradigm.
+The main functionality of both codes is to read from a file called `in`. The file is read line by line, and each line is split with space delimiter, after that we store the words into a map as key and as a value we store the appearance time!
+In the end, we write into a file called `out`.
 
-Main functionality of both codes is to read from file called `in`. The read is done per line and each line is splitten with space delimeter, after that we store the words into map as key and as value is store the appearence time!
-In the end after the above steps are finished as described, we will write into a file called `out`.
-
-Basicaly it should look similar like this in the end, maybe with a slight difference in order:
+In the end, It should look similar like this, maybe with a slight difference in order:
 
 ```
 
